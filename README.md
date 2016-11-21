@@ -24,5 +24,19 @@ Composer has the configuration for volume mounting, port binding and image
 management.
 
 ```bash
-~/jenkins$ docker-compose up  # add '-d' to daemonize the container
+~/jenkins$ docker-compose up
 ```
+
+**NOTE:** watch carefully the stdout on first start. It will show you data
+required to complete configuration. Once all configuration is ready, you can
+stop the container with `Ctrl + C` safely and daemonize the container with `-d`
+flag.
+
+```bash
+~/jenkins$ docker-compose up -d
+```
+
+# Default vaules
+
+* Web interface: http://localhost:8080/
+* Local path for Jenkins' data storage: `./data`
