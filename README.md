@@ -38,5 +38,5 @@ flag.
 
 # Default vaules
 
-* Web interface: http://localhost:8080/
+* Web interface: [http://localhost:8080/]
 * Local path for Jenkins' data storage: `./data`
