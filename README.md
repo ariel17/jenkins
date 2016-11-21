@@ -6,13 +6,15 @@ installation using Docker.
 ## Requirements
 
 1. Docker v>=1.10. [See this installation guide](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
+1. Python v>=2.7.12. It usually comes with the Linux distribution already
+   installed.
 1. Python PIP.
 
    ```bash
    ~/jenkins$ sudo apt install python-pip
    ```
 
-1. Composer (listed in `requirements.txt`).
+1. Composer v1.9.0 (listed in `requirements.txt`).
 
    ```bash
    ~/jenkins$ sudo pip install -r requirements.txt
